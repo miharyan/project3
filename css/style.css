@@ -1,0 +1,19 @@
+button {
+	font-size: 16px;
+	padding: 14px;
+	color: black;
+	background: yellow;
+	border: 1px white;
+	cursor: pointer;
+	}
+	
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{display:none;}
+
+.wrapper{
+	max-width: 800px;
+	margin: 10px auto 30px;
+}
