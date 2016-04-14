@@ -16,7 +16,17 @@ button:hover {
 	background-color: black;
 	color: yellow;
 }
+
+.right {
+	background-color: #ccff66;
+	color: white;
+}
 	
+.wrong {
+	background-color: #ff6666;
+	color: white;		
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
