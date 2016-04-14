@@ -11,7 +11,7 @@ $(document).ready(function () {
 		console.log("Too Bad...");
 		$(this).addClass("wrong");
 		}
-		
+		$(this).siblings('button').prop("disabled", true);
 	});
 
 		
