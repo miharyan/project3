@@ -12,6 +12,7 @@ $(document).ready(function () {
 		$(this).addClass("wrong");
 		}
 		$(this).siblings('button').prop("disabled", true);
+		
 	});
 
 		
