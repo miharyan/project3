@@ -5,10 +5,21 @@ button {
 	background: yellow;
 	border: 1px white;
 	cursor: pointer;
-	}
+}
+	
+button:hover {
+	background-color: black;
+	color: yellow;
+}
+
+.chosen {
+	background-color: black;
+	color: yellow;
+}
 	
 body {
 	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
 }
 
 h1{display:none;}
