@@ -24,9 +24,14 @@ function gradeTest() {
 	var alertText;
 	var i;
 	
-var answer = document.getElementById('button').value.toLowerCase();
-	if(answer == 'correct') {
-	correctAnswers++;
+var answer = document.getElementByName('button');
+	for(i = 0; i < answer.length; i++) {
+		if(answer[i].checked)
+			if(answer[i].hasClass("correct") {
+				correctAnswers++;
+				break;
+			}
+		}
 	}
 	
 if(correctAnswers == totalQuestions) {
