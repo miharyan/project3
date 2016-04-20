@@ -24,9 +24,16 @@ function gradeTest() {
 	var alertText;
 	var i;
 	
-var a1 = document.getElementById('button').value.toLowerCase();
-	if(a1 == 'correct') {
+var answer = document.getElementById('button').value.toLowerCase();
+	if(answer == 'correct') {
 	correctAnswers++;
 	}
 	
-
+if(correctAnswers == totalQuestions) {
+	alertText = "Congratulations! You got all the questions right!";
+}
+else {
+	alertText = "You got " + correctAnswers + " out of " + totalQuestions + " correct!";
+}
+alert(alertText);
+}	
