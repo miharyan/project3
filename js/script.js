@@ -18,3 +18,15 @@ $(document).ready(function () {
 		
 });
 
+function gradeTest() {
+	var totalQuestions = 5;
+	var correctAnswers = 0;
+	var alertText;
+	var i;
+	
+var a1 = document.getElementById('button').value.toLowerCase();
+	if(a1 == 'correct') {
+	correctAnswers++;
+	}
+	
+

@@ -27,6 +27,20 @@ button:hover {
 	color: white;		
 }
 
+input[type="submit"]{
+	font-size: 16px;
+	padding: 14px;
+	color: black;
+	background: yellow;
+	border: 1px white;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: black;
+	color: yellow;
+}
+	
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
