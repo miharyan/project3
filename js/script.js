@@ -24,15 +24,52 @@ function gradeTest() {
 	var alertText;
 	var i;
 	
-var answer = document.getElementByName('button');
-	for(i = 0; i < answer.length; i++) {
-		if(answer[i].checked)
-			if(answer[i].hasClass("correct") {
+var a1 = document.getElementByName('button');
+	for(i = 0; i < a1.length; i++) {
+		if(a1[i].checked)
+			if(a1[i].hasClass("correct") {
 				correctAnswers++;
 				break;
 			}
 		}
 	}
+var a2 = document.getElementByName('button');
+	for(i = 0; i < a2.length; i++) {
+		if(a2[i].checked)
+			if(a2[i].hasClass("correct") {
+				correctAnswers++;
+				break;
+			}
+		}
+	}
+var a3 = document.getElementByName('button');
+	for(i = 0; i < a3.length; i++) {
+		if(a3[i].checked)
+			if(a3[i].hasClass("correct") {
+				correctAnswers++;
+				break;
+			}
+		}
+	}
+var a4 = document.getElementByName('button');
+	for(i = 0; i < a4.length; i++) {
+		if(a4[i].checked)
+			if(a4[i].hasClass("correct") {
+				correctAnswers++;
+				break;
+			}
+		}
+	}
+var a5 = document.getElementByName('button');
+	for(i = 0; i < a5.length; i++) {
+		if(a5[i].checked)
+			if(a5[i].hasClass("correct") {
+				correctAnswers++;
+				break;
+			}
+		}
+	}
+
 	
 if(correctAnswers == totalQuestions) {
 	alertText = "Congratulations! You got all the questions right!";
